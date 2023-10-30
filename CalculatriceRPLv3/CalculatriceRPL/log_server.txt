@@ -1,0 +1,9 @@
+push 15 1
+pop
+push 2 2
+push -3 -3
+add
+push 0 0
+sub
+pop
+exit

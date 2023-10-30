@@ -1,0 +1,5 @@
+push 3 3
+push 76 67
+sub
+pop
+exit

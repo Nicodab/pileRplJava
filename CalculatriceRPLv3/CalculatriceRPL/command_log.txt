@@ -1,0 +1,5 @@
+push 3 3
+push 3 3
+sub
+pop
+exit
