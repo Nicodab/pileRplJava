@@ -71,7 +71,6 @@ public class CalcUI {
             } 
             // Connecter l'utilisateur en mode replay local.
             else if ((argument.equals("user:local")) && (recordOrReplay.contains("rep="))) {
-                System.out.println("recordOrReplay: replay");
                 pile = new PileRPL(Integer.valueOf(pileSize)); //Init de la pile
                 String filepath = "";
                 
@@ -135,6 +134,7 @@ public class CalcUI {
             e.printStackTrace();
         }
     }
+    
     // Initialisation du initFullReplayLocal avec le nom defichier d'entrée
     public void initFullReplayLocale(String filename){
         try {
